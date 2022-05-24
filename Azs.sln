@@ -7,18 +7,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzsWebApi", "AzsWebApi\AzsW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzsWebApi.Tests", "AzsWebApi.Tests\AzsWebApi.Tests.csproj", "{6A89C744-FB1D-4F93-B06F-86C7D9058954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzsApp.RequestHelper", "AzsApp.RequestHelper\AzsApp.RequestHelper.csproj", "{4F37074B-3146-4900-AF9C-3A547AF3D798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzsApp.RequestHelper", "AzsApp.RequestHelper\AzsApp.RequestHelper.csproj", "{4F37074B-3146-4900-AF9C-3A547AF3D798}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzsApp.WF", "AzsApp.WF\AzsApp.WF.csproj", "{5D3C3CA9-E8B7-44C6-8A12-F454CFF47016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzsApp.WF", "AzsApp.WF\AzsApp.WF.csproj", "{5D3C3CA9-E8B7-44C6-8A12-F454CFF47016}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzsApp.WFEF", "AzsApp.WFEF\AzsApp.WFEF.csproj", "{4ADE84EA-F519-49E4-A538-E33F9389B286}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzsApp.WFEF", "AzsApp.WFEF\AzsApp.WFEF.csproj", "{4ADE84EA-F519-49E4-A538-E33F9389B286}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLScript", "SQLScript", "{71020ECD-D9CC-404C-B648-9F82C4DF4335}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLScripts", "SQLScripts", "{4CF6F85C-5E2A-48C1-859F-6B0E2543CB27}"
 	ProjectSection(SolutionItems) = preProject
-		..\data import sessia 1.csv = ..\data import sessia 1.csv
-		..\fueltype import sessia 1.csv = ..\fueltype import sessia 1.csv
-		..\Session-1.sql = ..\Session-1.sql
-		..\stations import sessia 1.csv = ..\stations import sessia 1.csv
+		SQLScripts\data import sessia 1.csv = SQLScripts\data import sessia 1.csv
+		SQLScripts\fueltype import sessia 1.csv = SQLScripts\fueltype import sessia 1.csv
+		SQLScripts\Session-1.sql = SQLScripts\Session-1.sql
+		SQLScripts\stations import sessia 1.csv = SQLScripts\stations import sessia 1.csv
 	EndProjectSection
 EndProject
 Global
